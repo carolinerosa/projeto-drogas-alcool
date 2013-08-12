@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Projeto Drogas</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ac_send">AcSend</string>
+
+    <string name="title_activity_ac_menu">AcMenu</string>
+    <string name="title_activity_ac_text_reader">AcTextReader</string>
+
+</resources>
