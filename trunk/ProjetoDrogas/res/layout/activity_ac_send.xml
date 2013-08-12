@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AcSend" >
+
+    <EditText
+        android:id="@+id/editText_Message"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/button_send"
+        android:layout_alignLeft="@+id/button_send"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button_send"
+        android:layout_marginTop="72dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/label_title"
+        android:layout_marginBottom="20dp"
+        android:text="Enviar" />
+
+    <TextView
+        android:id="@+id/label_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Escreva Sua Mensagem aqui"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
